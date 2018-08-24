@@ -1,3 +1,4 @@
+# encoding: utf-8
 #find use enum def proto variable
 #use method: change your search path in target_path.
 
@@ -9,6 +10,7 @@ def FindFileByExt(base_path, extend_name):
     find file
     @para base_path  path name
     @para extend_name  file extend name, or file name
+    @return full_path list, if your need basename,use os.path.basename(xxx)
     ex FindFileByExt("E:/test/python/prj/protocol", ".proto")
     '''
     fileresult = []
@@ -48,14 +50,14 @@ def ReAllFile(base_path, extend_name, regular_str):
     return all_ret
 
 def WriteFile(path, str):
-    '''���ַ��� д���ļ�'''
+    '''将字符串 写入文件'''
 
     f = file(path, 'w')
     f.write(str+"\n")
     f.close()
 
 if __name__ == '__main__':
-    target_path = "E:/test/python/prj"            
+    target_path = "E:/test/python/prj/"            #注意不同路径需要修改
     r = ReAllFile(target_path, "txt", "EquipConfMgr.*")
     for result in r:
         print(result)
