@@ -1,2 +1,3 @@
-ÓÃvs2013´ò¿ª£¬
-ĞèÒª²å¼ş python tools for visual studio, ²Î¿¼ÏÂÔØÍøÖ· https://visualstudio.microsoft.com/zh-hans/vs/features/python/?wt.mc_id=aka_ms_python
+æ”¶é›†pythonå¯å¤ç”¨åŠŸèƒ½
+ç”¨vs2013æ‰“å¼€ï¼Œ
+éœ€è¦æ’ä»¶ python tools for visual studio, å‚è€ƒä¸‹è½½ç½‘å€ https://visualstudio.microsoft.com/zh-hans/vs/features/python/?wt.mc_id=aka_ms_python
